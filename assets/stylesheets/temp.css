@@ -15,7 +15,7 @@ body {
 a {
   text-decoration:none;
   color:#000;
-  border-bottom:1px solid;
+  border-bottom:0.1em solid;
   padding:0 0 0.1em 0;
 }
 .container {
@@ -78,5 +78,5 @@ a {
  .top ul li.left {width: 100%;}
  .top ul li.right {width: 100%;}
  .top ul li.desc {font-size: 70%; width: 100%; padding: 20px 0 60px 0;}
- .bottom {position: relative; font-size: 70%; bottom: 40px;}
+ .bottom {font-size: 70%; bottom: 40px;}
 }
