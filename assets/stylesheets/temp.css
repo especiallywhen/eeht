@@ -56,8 +56,17 @@ a {
   font-size: 0.9em;
   line-height: 1.8em;
 }
-.bottom{
+.bottom li{
+  display: inline;
+}
+.bottom ul{
+  width: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   font-family:'KoPub Batang', serif !important;
+  float: left;
+  text-align: left;
   letter-spacing:-0.02em;
   font-size:0.9em;
   position:absolute;
@@ -68,6 +77,6 @@ a {
  .top {height: 100%; min-height: 520px;}
  .top ul li.left {width: 100%;}
  .top ul li.right {width: 100%;}
- .top ul li.desc {font-size: 80%; width: 100%; padding: 20px 0 60px 0;}
- .bottom {font-size: 80%; bottom: 40px;}
+ .top ul li.desc {font-size: 70%; width: 100%; padding: 20px 0 60px 0;}
+ .bottom {position: relative; font-size: 70%; bottom: 40px;}
 }
