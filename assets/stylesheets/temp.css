@@ -8,7 +8,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-color: #f1f1f1;
-  font-family: Georgia, Times, serif;
+  font-family: 'KoPub Batang', serif !important;
 }
 
 a {
@@ -32,21 +32,21 @@ a {
   list-style: none;
 }
 .top ul li.left {
-  font-family: 'KoPub Batang', serif;
+  font-family: 'KoPub Batang', serif !important;
   width: 50%;
   display: inline-block;
   float: left;
   text-align: left;
 }
 .top ul li.right {
-  font-family: 'KoPub Batang', serif;
+  font-family: 'KoPub Batang', serif !important;
   width: 50%;
   display: inline-block;
   float: right;
   text-align: right;
 }
 .top ul li.desc {
-  font-family: 'KoPub Batang', serif;
+  font-family: 'KoPub Batang', serif !important;
   width: 50%;
   display: inline-block;
   float: left;
@@ -56,7 +56,7 @@ a {
   line-height: 1.8em;
 }
 .bottom{
-  font-family:'KoPub Batang', serif;
+  font-family:'KoPub Batang', serif !important;
   letter-spacing:-0.02em;
   font-size:0.9em;
   position:absolute;
