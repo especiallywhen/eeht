@@ -1,4 +1,37 @@
 @import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+/*
+ * KoPub Batang (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'KoPub Batang';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.eot);
+  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'KoPub Batang';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'KoPub Batang';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.ttf) format('truetype');
+}
 body {
   margin: 0;
   padding: 0;
@@ -15,7 +48,7 @@ a {
   text-decoration:none;
   color:#000;
   border-bottom:1px solid;
-  padding:0 0 0.01em 0;
+  padding:0 0 0.1em 0;
 }
 .container {
   padding:40px;
@@ -33,21 +66,21 @@ a {
 }
 .top ul li.left {
   font-family: 'KoPub Batang', serif !important;
-  width: 50%;
+  width: 70%;
   display: inline-block;
   float: left;
   text-align: left;
 }
 .top ul li.right {
   font-family: 'KoPub Batang', serif !important;
-  width: 50%;
+  width: 70%;
   display: inline-block;
   float: right;
   text-align: right;
 }
 .top ul li.desc {
   font-family: 'KoPub Batang', serif !important;
-  width: 50%;
+  width: 70%;
   display: inline-block;
   float: left;
   text-align: left;
@@ -67,5 +100,5 @@ a {
  .top ul li.left {width: 100%;}
  .top ul li.right {width: 100%;}
  .top ul li.desc {width: 100%; padding: 20px 0 60px 0;}
- .bottom {position: relative; bottom: 40px;}
+ .bottom {bottom: 40px;}
 }
